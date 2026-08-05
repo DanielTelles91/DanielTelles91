@@ -49,8 +49,3 @@ My pinned repositories include:
 • Embedded systems projects  
 
 ---
-
-## Contact
-
-LinkedIn:  
-https://www.linkedin.com/in/daniel-arantes-telles-a61b92104
