@@ -54,33 +54,31 @@
     <g class="typeLine" style="animation-delay:0.64s"><text x="30" y="130" class="term-head">NAME......: DANIEL ARANTES TELLES</text></g>
     <g class="typeLine" style="animation-delay:0.80s"><text x="30" y="152" class="term-text">ROLE......: FULL STACK JAVA DEVELOPER</text></g>
     <g class="typeLine" style="animation-delay:0.96s"><text x="30" y="174" class="term-text">FOCUS.....: SPRING BOOT / ANGULAR</text></g>
-    <g class="typeLine" style="animation-delay:1.12s"><text x="30" y="196" class="term-text">EDU.......: SYSTEMS ANALYSIS &amp; DEV (ADS)</text></g>
-    <g class="typeLine" style="animation-delay:1.28s"><text x="30" y="218" class="term-text">EDU.......: ELECTRONICS TECHNICIAN</text></g>
-    <g class="typeLine" style="animation-delay:1.44s"><text x="30" y="240" class="term-text">LOCATION..: SAO PAULO, BR</text></g>
+    <g class="typeLine" style="animation-delay:1.12s"><text x="30" y="196" class="term-text">EDUCATION.: SYSTEMS ANALYSIS &amp; DEV (ADS)</text></g>
+    <g class="typeLine" style="animation-delay:1.28s"><text x="30" y="218" class="term-text">EDUCATION.: ELECTRONICS TECHNICIAN</text></g>
+    <g class="typeLine" style="animation-delay:1.44s"><text x="30" y="240" class="term-text">LOCATION..: SAO PAULO, BRAZIL</text></g>
     <g class="typeLine" style="animation-delay:1.60s"><text x="30" y="264" class="term-text-dim">--------------------------------------------</text></g>
 
     <!-- About -->
     <g class="typeLine" style="animation-delay:1.76s"><text x="30" y="290" class="term-head">]PRINT ABOUT.TXT</text></g>
     <g class="typeLine" style="animation-delay:1.92s"><text x="30" y="312" class="term-text-dim">SOFTWARE DEV FOCUSED ON JAVA, SPRING BOOT</text></g>
     <g class="typeLine" style="animation-delay:2.08s"><text x="30" y="332" class="term-text-dim">AND ANGULAR. COMBINES SOFTWARE SKILLS WITH</text></g>
-    <g class="typeLine" style="animation-delay:2.24s"><text x="30" y="352" class="term-text-dim">HANDS-ON HARDWARE &amp; EMBEDDED EXPERIENCE.</text></g>
+    <g class="typeLine" style="animation-delay:2.24s"><text x="30" y="352" class="term-text-dim">HANDS ON HARDWARE &amp; EMBEDDED EXPERIENCE.</text></g>
     <g class="typeLine" style="animation-delay:2.40s"><text x="30" y="372" class="term-text-dim">BUILDS FULL PROJECTS WITH CLEAN CODE AND</text></g>
     <g class="typeLine" style="animation-delay:2.56s"><text x="30" y="392" class="term-text-dim">SOLID ARCHITECTURE.</text></g>
     <g class="typeLine" style="animation-delay:2.72s"><text x="30" y="416" class="term-text-dim">--------------------------------------------</text></g>
 
     <!-- Tech stack -->
     <g class="typeLine" style="animation-delay:2.88s"><text x="30" y="442" class="term-head">]LIST TECH.STACK</text></g>
-    <g class="typeLine" style="animation-delay:3.04s"><text x="30" y="464" class="term-text">BACKEND...: JAVA SPRING JPA REST MYSQL</text></g>
-    <g class="typeLine" style="animation-delay:3.20s"><text x="30" y="486" class="term-text">FRONTEND..: ANGULAR TS JS HTML CSS BOOTSTRAP</text></g>
-    <g class="typeLine" style="animation-delay:3.36s"><text x="30" y="508" class="term-text">TOOLS.....: GIT GITHUB DOCKER POSTMAN</text></g>
-    <g class="typeLine" style="animation-delay:3.52s"><text x="30" y="530" class="term-text">EMBEDDED..: RASPBERRY PI ATMEGA PIC RP2040</text></g>
+    <g class="typeLine" style="animation-delay:3.04s"><text x="30" y="464" class="term-text">BACKEND...: JAVA, SPRING, JPA, REST APIs, MYSQL</text></g>
+    <g class="typeLine" style="animation-delay:3.20s"><text x="30" y="486" class="term-text">FRONTEND..: ANGULAR JS, HTML5, CSS3, BOOTSTRAP</text></g>
+    <g class="typeLine" style="animation-delay:3.36s"><text x="30" y="508" class="term-text">TOOLS.....: GIT, GITHUB, DOCKER, POSTMAN</text></g>
+    <g class="typeLine" style="animation-delay:3.52s"><text x="30" y="530" class="term-text">EMBEDDED..: RASPBERRY PI, ATMEGA, PIC</text></g>
     <g class="typeLine" style="animation-delay:3.68s"><text x="30" y="554" class="term-text-dim">--------------------------------------------</text></g>
 
     <!-- Catalog -->
     <g class="typeLine" style="animation-delay:3.84s"><text x="30" y="580" class="term-head">]CATALOG</text></g>
     <g class="typeLine" style="animation-delay:4.00s"><text x="30" y="602" class="term-text-dim">DISK VOLUME 254, DRIVE 1</text></g>
-    <g class="typeLine" style="animation-delay:4.16s"><text x="30" y="628" class="term-text">*A 002 GITHUB.PROFILE</text></g>
-    <g class="typeLine" style="animation-delay:4.32s"><text x="30" y="650" class="term-text">*A 014 REPOS.ALL</text></g>
     <g class="typeLine" style="animation-delay:4.48s"><text x="30" y="672" class="term-text">*B 006 FULLSTACK.APPS</text></g>
     <g class="typeLine" style="animation-delay:4.64s"><text x="30" y="694" class="term-text">*B 003 DESKTOP.APPS</text></g>
     <g class="typeLine" style="animation-delay:4.80s"><text x="30" y="716" class="term-text">*B 009 EMBEDDED.PROJECTS</text></g>
