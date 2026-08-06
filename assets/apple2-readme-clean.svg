@@ -1,0 +1,117 @@
+<svg width="760" height="820" viewBox="0 0 760 820" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .crt-bg { fill: #0a0e0a; }
+      .term-text {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 15px;
+        fill: #33ff66;
+      }
+      .term-text-dim {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 15px;
+        fill: #1f8f3d;
+      }
+      .term-head {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 15px;
+        fill: #66ffaa;
+      }
+      .link-text {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 15px;
+        fill: #33ff66;
+        text-decoration: underline;
+      }
+      .link-text:hover { fill: #aaffbb; }
+      .cursor {
+        fill: #33ff66;
+        animation: blink 0.9s steps(1) infinite;
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        50.01%, 100% { opacity: 0; }
+      }
+      .glow { filter: url(#phosphor-glow); }
+    </style>
+    <filter id="phosphor-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <rect width="4" height="1" fill="#000000" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <!-- CRT background -->
+  <rect class="crt-bg" width="760" height="820" rx="8"/>
+  <rect x="4" y="4" width="752" height="812" rx="6" fill="none" stroke="#1a3d1a" stroke-width="2"/>
+
+  <g class="glow">
+    <!-- Boot header -->
+    <text x="30" y="36" class="term-text">APPLE ][ PLUS  48K  ROM BASIC</text>
+    <text x="30" y="58" class="term-text-dim">]LOAD DANIEL.PROFILE</text>
+    <text x="30" y="80" class="term-text-dim">]RUN</text>
+    <text x="30" y="104" class="term-text-dim">--------------------------------------------</text>
+
+    <!-- Identity -->
+    <text x="30" y="130" class="term-head">NAME......: DANIEL ARANTES TELLES</text>
+    <text x="30" y="152" class="term-text">ROLE......: FULL STACK JAVA DEVELOPER</text>
+    <text x="30" y="174" class="term-text">FOCUS.....: SPRING BOOT / ANGULAR</text>
+    <text x="30" y="196" class="term-text">EDU.......: SYSTEMS ANALYSIS &amp; DEV (ADS)</text>
+    <text x="30" y="218" class="term-text">EDU.......: ELECTRONICS TECHNICIAN</text>
+    <text x="30" y="240" class="term-text">LOCATION..: SAO PAULO, BR</text>
+
+    <text x="30" y="264" class="term-text-dim">--------------------------------------------</text>
+
+    <!-- About -->
+    <text x="30" y="290" class="term-head">]PRINT ABOUT.TXT</text>
+    <text x="30" y="312" class="term-text-dim">SOFTWARE DEV FOCUSED ON JAVA, SPRING BOOT</text>
+    <text x="30" y="332" class="term-text-dim">AND ANGULAR. COMBINES SOFTWARE SKILLS WITH</text>
+    <text x="30" y="352" class="term-text-dim">HANDS-ON HARDWARE &amp; EMBEDDED EXPERIENCE.</text>
+    <text x="30" y="372" class="term-text-dim">BUILDS FULL PROJECTS WITH CLEAN CODE AND</text>
+    <text x="30" y="392" class="term-text-dim">SOLID ARCHITECTURE.</text>
+
+    <text x="30" y="416" class="term-text-dim">--------------------------------------------</text>
+
+    <!-- Tech stack -->
+    <text x="30" y="442" class="term-head">]LIST TECH.STACK</text>
+    <text x="30" y="464" class="term-text">BACKEND...: JAVA SPRING JPA REST MYSQL</text>
+    <text x="30" y="486" class="term-text">FRONTEND..: ANGULAR TS JS HTML CSS BOOTSTRAP</text>
+    <text x="30" y="508" class="term-text">TOOLS.....: GIT GITHUB DOCKER POSTMAN</text>
+    <text x="30" y="530" class="term-text">EMBEDDED..: RASPBERRY PI ATMEGA PIC RP2040</text>
+
+    <text x="30" y="554" class="term-text-dim">--------------------------------------------</text>
+
+    <!-- Catalog / links -->
+    <text x="30" y="580" class="term-head">]CATALOG</text>
+    <text x="30" y="602" class="term-text-dim">DISK VOLUME 254, DRIVE 1</text>
+
+    
+      <text x="30" y="628" class="link-text">*A 002 GITHUB.PROFILE</text>
+    
+    
+      <text x="30" y="650" class="link-text">*A 014 REPOS.ALL</text>
+    
+    
+      <text x="30" y="672" class="link-text">*B 006 FULLSTACK.APPS</text>
+    
+    
+      <text x="30" y="694" class="link-text">*B 003 DESKTOP.APPS</text>
+    
+    
+      <text x="30" y="716" class="link-text">*B 009 EMBEDDED.PROJECTS</text>
+    
+
+    <text x="30" y="742" class="term-text-dim">--------------------------------------------</text>
+    <text x="30" y="770" class="term-text">]</text>
+    <rect x="42" y="756" width="10" height="18" class="cursor"/>
+  </g>
+
+  <!-- scanlines overlay -->
+  <rect x="0" y="0" width="760" height="820" fill="url(#scanlines)"/>
+</svg>
